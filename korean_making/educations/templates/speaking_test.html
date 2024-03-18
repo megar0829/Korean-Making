@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h2>추천 문장</h2>
+  <ul>
+    {% for sentence in sentences %}
+    <li>
+      <p>{{ sentence.en_sentence }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <form action="{% url "educations:test" %}" method="POST">
+    {% csrf_token %}
+    <label for="en">영어 문장</label>
+    <input id="en" type="text" name="en_sentence">
+
+    <label for="input">한글 답변</label>
+    <input id="input" type="text" name="input_sentence">
+    <input type="submit">
+  </form>
+</body>
+</html>

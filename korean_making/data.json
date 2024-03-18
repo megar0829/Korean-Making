@@ -1,0 +1,1119 @@
+[
+{
+    "model": "accounts.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$hsgCqmoAVle76EyIXwMnCy$dUaYzFu6IqhfJwLGwvXxMOd/PuY8Vc7N7p6g6UYHwVg=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "test1",
+        "email": "test@gmail.com",
+        "created_at": "2023-11-08T05:39:27.190Z",
+        "updated_at": "2023-11-08T05:39:27.190Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$9Ux4BHSQlgWdJpCo3ZK7PA$N4cF2asQA8WfCYjlwDsZ2wbFJU+wV14iHAoZ+QXa4VM=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "test2",
+        "email": "test2@gmail.com",
+        "created_at": "2023-11-08T05:39:39.980Z",
+        "updated_at": "2023-11-08T05:39:39.980Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$Hq6uLuUZvgXO91suDHJrzh$qTRS+HwpimndDnNZXnsV08UxLPxQyxgIxdDrMKDC07s=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "test3",
+        "email": "test3@gmail.com",
+        "created_at": "2023-11-08T05:39:49.215Z",
+        "updated_at": "2023-11-08T05:39:49.215Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$BMzceJQDfyaAlXtxp83kXW$Lfeh5KQVIyM+bFQldxUbtXD95HQZirWht4GffEuDiF0=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "test4",
+        "email": "test4@gmail.com",
+        "created_at": "2023-11-08T05:39:58.004Z",
+        "updated_at": "2023-11-08T05:39:58.004Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 5,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$1DwrrfKSzW8USOqPCpmn5t$cOAB/44awZeNz+qSwwW+FCp9vXV4UfPd0OxLYr9NjGY=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "test5",
+        "email": "test5@gmail.com",
+        "created_at": "2023-11-08T05:40:05.459Z",
+        "updated_at": "2023-11-08T05:40:05.459Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 6,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$TWbdOTuNIX2RIaOWGBgSK0$sZx4na0dtZF/tQtfZb+quVbRLn20/PFxqly+gmIw4GI=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "test6",
+        "email": "test6@gmail.com",
+        "created_at": "2023-11-08T05:40:13.195Z",
+        "updated_at": "2023-11-08T05:40:13.195Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 7,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$gnfBFXwoG9Ah9TN1dFJSWp$SufEfZ8npRRrbCEbDtMyV5uQHHNeTYFWD+LaH32u8GE=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "test7",
+        "email": "test7@gmail.com",
+        "created_at": "2023-11-08T05:40:21.359Z",
+        "updated_at": "2023-11-08T05:40:21.359Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.profile",
+    "pk": 1,
+    "fields": {
+        "user": 1,
+        "user_pk": 1,
+        "nickname": "test1",
+        "country": "USA",
+        "exp": 50
+    }
+},
+{
+    "model": "accounts.profile",
+    "pk": 2,
+    "fields": {
+        "user": 2,
+        "user_pk": 2,
+        "nickname": "megar",
+        "country": "USA",
+        "exp": 450
+    }
+},
+{
+    "model": "accounts.profile",
+    "pk": 3,
+    "fields": {
+        "user": 3,
+        "user_pk": 3,
+        "nickname": "wjstp",
+        "country": "Japan",
+        "exp": 312
+    }
+},
+{
+    "model": "accounts.profile",
+    "pk": 4,
+    "fields": {
+        "user": 4,
+        "user_pk": 4,
+        "nickname": "Hangukin",
+        "country": "China",
+        "exp": 100
+    }
+},
+{
+    "model": "accounts.profile",
+    "pk": 5,
+    "fields": {
+        "user": 5,
+        "user_pk": 5,
+        "nickname": "test5",
+        "country": "Japan",
+        "exp": 150
+    }
+},
+{
+    "model": "accounts.profile",
+    "pk": 6,
+    "fields": {
+        "user": 6,
+        "user_pk": 6,
+        "nickname": "test6",
+        "country": "China",
+        "exp": 700
+    }
+},
+{
+    "model": "accounts.profile",
+    "pk": 7,
+    "fields": {
+        "user": 7,
+        "user_pk": 7,
+        "nickname": "test7",
+        "country": "USA",
+        "exp": 1110
+    }
+},
+{
+    "model": "educations.sentence",
+    "pk": 1,
+    "fields": {
+        "ko_sentence": "그에게 내 차를 세차하게 했습니다.",
+        "en_sentence": "I had him wash my car."
+    }
+},
+{
+    "model": "educations.sentence",
+    "pk": 2,
+    "fields": {
+        "ko_sentence": "그의 방을 청소하도록 하겠습니다.",
+        "en_sentence": "I will get him to clean his room."
+    }
+},
+{
+    "model": "educations.sentence",
+    "pk": 3,
+    "fields": {
+        "ko_sentence": "당신은 나를 행복하게 합니다.",
+        "en_sentence": "You make me happy."
+    }
+},
+{
+    "model": "educations.sentence",
+    "pk": 4,
+    "fields": {
+        "ko_sentence": "그는 매일 나를 웃게 한다.",
+        "en_sentence": "He makes me laugh every day."
+    }
+},
+{
+    "model": "educations.sentence",
+    "pk": 5,
+    "fields": {
+        "ko_sentence": "엄마가 나에게 숙제를 하라고 했다.",
+        "en_sentence": "Mom asked me to do my homework."
+    }
+},
+{
+    "model": "educations.sentence",
+    "pk": 6,
+    "fields": {
+        "ko_sentence": "우리는 그에게 서류에 서명하도록 강요했다.",
+        "en_sentence": "We forced him to sign the papers."
+    }
+},
+{
+    "model": "educations.sentence",
+    "pk": 7,
+    "fields": {
+        "ko_sentence": "나는 오늘 아침 해가 뜨는 것을 보았다.",
+        "en_sentence": "I saw the sun rise this morning."
+    }
+},
+{
+    "model": "educations.sentence",
+    "pk": 8,
+    "fields": {
+        "ko_sentence": "당신과 함께한 모든 시간은 정말 멋졌어요.",
+        "en_sentence": "The whole time I spent with you was brilliant."
+    }
+},
+{
+    "model": "educations.sentence",
+    "pk": 9,
+    "fields": {
+        "ko_sentence": "모든 게 일에서 잘못됐어요.",
+        "en_sentence": "Everything went wrong at work."
+    }
+},
+{
+    "model": "educations.sentence",
+    "pk": 10,
+    "fields": {
+        "ko_sentence": "제가 여기까지 왔는데 오늘은 안 오신다고요?",
+        "en_sentence": "I came all this way, and he's not in today?"
+    }
+},
+{
+    "model": "educations.sentence",
+    "pk": 11,
+    "fields": {
+        "ko_sentence": "그는 나를 가장 친한 친구라고 생각한다.",
+        "en_sentence": "He thinks I'm his best friend."
+    }
+},
+{
+    "model": "educations.sentence",
+    "pk": 12,
+    "fields": {
+        "ko_sentence": "좀 흥미롭네요.",
+        "en_sentence": "It's kind of interesting."
+    }
+},
+{
+    "model": "educations.sentence",
+    "pk": 13,
+    "fields": {
+        "ko_sentence": "휴가를 보내는 가장 좋은 계획은 무엇이라고 생각하십니까?",
+        "en_sentence": "What do you think is the best plan for spending the holidays?"
+    }
+},
+{
+    "model": "educations.sentence",
+    "pk": 14,
+    "fields": {
+        "ko_sentence": "이 사이트는 한국어공부법을 이해할 수 있게 해준다.",
+        "en_sentence": "This site allows you to understand how to study Korean."
+    }
+},
+{
+    "model": "educations.sentence",
+    "pk": 15,
+    "fields": {
+        "ko_sentence": "후회하기엔 너무 늦었습니다.",
+        "en_sentence": "It's too late for regrets."
+    }
+},
+{
+    "model": "educations.sentence",
+    "pk": 16,
+    "fields": {
+        "ko_sentence": "당신은 빚쟁이들에게 쓰레기처럼 쫓기면서 여생을 보낼 건가요?",
+        "en_sentence": "Would you spend the rest of your life being chased by debtors like garbage?"
+    }
+},
+{
+    "model": "educations.sentence",
+    "pk": 17,
+    "fields": {
+        "ko_sentence": "정부는 사람들이 집에 머물 것을 권고했다.",
+        "en_sentence": "The government recommended that people stay at home."
+    }
+},
+{
+    "model": "educations.sentence",
+    "pk": 18,
+    "fields": {
+        "ko_sentence": "디저트로 특별히 원하시는 게 있으신가요?",
+        "en_sentence": "Is there anything you'd like in particular for dessert?"
+    }
+},
+{
+    "model": "educations.sentence",
+    "pk": 19,
+    "fields": {
+        "ko_sentence": "그는 기회를 잡고 그녀에게 결혼을 청했습니다.",
+        "en_sentence": "He took a chance and asked her to marry him."
+    }
+},
+{
+    "model": "educations.sentence",
+    "pk": 20,
+    "fields": {
+        "ko_sentence": "저는 그녀를 알고 있지만, 그녀와는 사이가 좋지 않습니다.",
+        "en_sentence": "I know her, but I'm not on speaking terms with her."
+    }
+},
+{
+    "model": "educations.sentence",
+    "pk": 21,
+    "fields": {
+        "ko_sentence": "그녀는 매일 피아노를 칩니다.",
+        "en_sentence": "She plays the piano every day."
+    }
+},
+{
+    "model": "educations.sentence",
+    "pk": 22,
+    "fields": {
+        "ko_sentence": "우리가 함께한 시간은 가장 소중한 보물입니다",
+        "en_sentence": "Our time together is the most precious treasure."
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 1,
+    "fields": {
+        "user": 3,
+        "recommend": 1,
+        "input_sentence": "그에게 내 차를 씻게 했습니다.",
+        "score": true,
+        "created_at": "2023-11-07T14:39:01.450Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 2,
+    "fields": {
+        "user": 7,
+        "recommend": 1,
+        "input_sentence": "그에게 내 차를 씻게 했습니다.",
+        "score": true,
+        "created_at": "2023-11-07T14:55:22.646Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 3,
+    "fields": {
+        "user": 7,
+        "recommend": 12,
+        "input_sentence": "좀 흥미롭네요.",
+        "score": true,
+        "created_at": "2023-11-07T14:56:12.713Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 4,
+    "fields": {
+        "user": 7,
+        "recommend": 13,
+        "input_sentence": "휴가를 보내는 가장 좋은 계획은 무엇이라고 생각하십니까?",
+        "score": true,
+        "created_at": "2023-11-07T14:57:34.608Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 5,
+    "fields": {
+        "user": 7,
+        "recommend": 14,
+        "input_sentence": "이 사이트는 한국어공부법을 이해할 수 있게 해준다.",
+        "score": false,
+        "created_at": "2023-11-07T14:58:13.082Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 6,
+    "fields": {
+        "user": 7,
+        "recommend": 16,
+        "input_sentence": "당신은 빚쟁이들에게 쓰레기처럼 쫓기면서 여생을 보낼 건가요?",
+        "score": false,
+        "created_at": "2023-11-07T14:58:28.121Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 7,
+    "fields": {
+        "user": 7,
+        "recommend": 17,
+        "input_sentence": "정부는 사람들이 집에 머물 것을 권고했다.",
+        "score": false,
+        "created_at": "2023-11-07T14:58:43.900Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 8,
+    "fields": {
+        "user": 7,
+        "recommend": 19,
+        "input_sentence": "그는 기회를 잡고 그녀에게 결혼을 청했습니다.",
+        "score": true,
+        "created_at": "2023-11-07T14:59:04.252Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 9,
+    "fields": {
+        "user": 2,
+        "recommend": 18,
+        "input_sentence": "디저트로 특별히 원하시는 게 있으신가요?",
+        "score": true,
+        "created_at": "2023-11-07T14:59:41.044Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 10,
+    "fields": {
+        "user": 7,
+        "recommend": 20,
+        "input_sentence": "저는 그녀를 알고 있지만, 그녀와는 사이가 좋지 않습니다.",
+        "score": true,
+        "created_at": "2023-11-07T15:00:04.992Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 11,
+    "fields": {
+        "user": 7,
+        "recommend": 22,
+        "input_sentence": "우리가 함께한 시간은 가장 소중한 보물입니다.",
+        "score": false,
+        "created_at": "2023-11-07T15:00:27.112Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 12,
+    "fields": {
+        "user": 2,
+        "recommend": 16,
+        "input_sentence": "당신은 빚쟁이들에게 쓰레기처럼 쫓기면서 여생을 보낼 건가요?",
+        "score": false,
+        "created_at": "2023-11-07T15:00:31.285Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 13,
+    "fields": {
+        "user": 7,
+        "recommend": 18,
+        "input_sentence": "디저트로 특별히 원하시는 게 있으신가요?",
+        "score": true,
+        "created_at": "2023-11-07T15:00:42.599Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 14,
+    "fields": {
+        "user": 2,
+        "recommend": 12,
+        "input_sentence": "좀 흥미롭네요.",
+        "score": true,
+        "created_at": "2023-11-07T15:01:15.750Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 15,
+    "fields": {
+        "user": 7,
+        "recommend": 4,
+        "input_sentence": "그는 매일 나를 웃게 한다.",
+        "score": true,
+        "created_at": "2023-11-07T15:01:15.962Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 16,
+    "fields": {
+        "user": 2,
+        "recommend": 12,
+        "input_sentence": "좀 흥미롭네요.",
+        "score": true,
+        "created_at": "2023-11-07T15:01:29.232Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 17,
+    "fields": {
+        "user": 7,
+        "recommend": 4,
+        "input_sentence": "그는 매일 나를 웃게 한다.",
+        "score": true,
+        "created_at": "2023-11-07T15:01:30.335Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 18,
+    "fields": {
+        "user": 7,
+        "recommend": 4,
+        "input_sentence": "그는 매일 나를 웃게 한다.",
+        "score": true,
+        "created_at": "2023-11-07T15:01:31.443Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 19,
+    "fields": {
+        "user": 2,
+        "recommend": 12,
+        "input_sentence": "좀 흥미롭네요.",
+        "score": true,
+        "created_at": "2023-11-07T15:01:32.036Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 20,
+    "fields": {
+        "user": 7,
+        "recommend": 4,
+        "input_sentence": "그는 매일 나를 웃게 한다.",
+        "score": true,
+        "created_at": "2023-11-07T15:01:32.489Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 21,
+    "fields": {
+        "user": 7,
+        "recommend": 4,
+        "input_sentence": "그는 매일 나를 웃게 한다.",
+        "score": true,
+        "created_at": "2023-11-07T15:01:33.683Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 22,
+    "fields": {
+        "user": 2,
+        "recommend": 12,
+        "input_sentence": "좀 흥미롭네요.",
+        "score": true,
+        "created_at": "2023-11-07T15:01:34.176Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 23,
+    "fields": {
+        "user": 7,
+        "recommend": 4,
+        "input_sentence": "그는 매일 나를 웃게 한다.",
+        "score": true,
+        "created_at": "2023-11-07T15:01:34.437Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 24,
+    "fields": {
+        "user": 2,
+        "recommend": 12,
+        "input_sentence": "좀 흥미롭네요.",
+        "score": true,
+        "created_at": "2023-11-07T15:01:38.110Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 25,
+    "fields": {
+        "user": 2,
+        "recommend": 12,
+        "input_sentence": "좀 흥미롭네요.",
+        "score": true,
+        "created_at": "2023-11-07T15:01:40.653Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 26,
+    "fields": {
+        "user": 7,
+        "recommend": 4,
+        "input_sentence": "그는 매일 나를 웃게 한다.",
+        "score": true,
+        "created_at": "2023-11-07T15:01:41.982Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 27,
+    "fields": {
+        "user": 7,
+        "recommend": 4,
+        "input_sentence": "그는 매일 나를 웃게 한다.",
+        "score": true,
+        "created_at": "2023-11-07T15:01:42.864Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 28,
+    "fields": {
+        "user": 2,
+        "recommend": 12,
+        "input_sentence": "좀 흥미롭네요.",
+        "score": true,
+        "created_at": "2023-11-07T15:01:42.980Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 29,
+    "fields": {
+        "user": 7,
+        "recommend": 4,
+        "input_sentence": "그는 매일 나를 웃게 한다.",
+        "score": true,
+        "created_at": "2023-11-07T15:01:43.720Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 30,
+    "fields": {
+        "user": 7,
+        "recommend": 4,
+        "input_sentence": "그는 매일 나를 웃게 한다.",
+        "score": true,
+        "created_at": "2023-11-07T15:01:44.493Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 31,
+    "fields": {
+        "user": 7,
+        "recommend": 4,
+        "input_sentence": "그는 매일 나를 웃게 한다.",
+        "score": true,
+        "created_at": "2023-11-07T15:01:45.266Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 32,
+    "fields": {
+        "user": 7,
+        "recommend": 4,
+        "input_sentence": "그는 매일 나를 웃게 한다.",
+        "score": true,
+        "created_at": "2023-11-07T15:01:45.969Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 33,
+    "fields": {
+        "user": 7,
+        "recommend": 4,
+        "input_sentence": "그는 매일 나를 웃게 한다.",
+        "score": true,
+        "created_at": "2023-11-07T15:01:46.723Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 34,
+    "fields": {
+        "user": 2,
+        "recommend": 12,
+        "input_sentence": "좀 흥미롭네요.",
+        "score": true,
+        "created_at": "2023-11-07T15:02:04.674Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 35,
+    "fields": {
+        "user": 7,
+        "recommend": 4,
+        "input_sentence": "그는 매일 나를 웃게 한다.",
+        "score": true,
+        "created_at": "2023-11-07T15:02:12.709Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 36,
+    "fields": {
+        "user": 7,
+        "recommend": 4,
+        "input_sentence": "그는 매일 나를 웃게 한다.",
+        "score": true,
+        "created_at": "2023-11-07T15:02:13.383Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 37,
+    "fields": {
+        "user": 7,
+        "recommend": 4,
+        "input_sentence": "그는 매일 나를 웃게 한다.",
+        "score": true,
+        "created_at": "2023-11-07T15:02:14.071Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 38,
+    "fields": {
+        "user": 7,
+        "recommend": 4,
+        "input_sentence": "그는 매일 나를 웃게 한다.",
+        "score": true,
+        "created_at": "2023-11-07T15:04:44.016Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 39,
+    "fields": {
+        "user": 7,
+        "recommend": 4,
+        "input_sentence": "그는 매일 나를 웃게 한다.",
+        "score": true,
+        "created_at": "2023-11-07T15:04:44.906Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 40,
+    "fields": {
+        "user": 6,
+        "recommend": 4,
+        "input_sentence": "그는 매일 나를 웃게 한다.",
+        "score": true,
+        "created_at": "2023-11-07T15:05:03.831Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 41,
+    "fields": {
+        "user": 6,
+        "recommend": 4,
+        "input_sentence": "그는 매일 나를 웃게 한다.",
+        "score": true,
+        "created_at": "2023-11-07T15:05:12.640Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 42,
+    "fields": {
+        "user": 6,
+        "recommend": 4,
+        "input_sentence": "그는 매일 나를 웃게 한다.",
+        "score": true,
+        "created_at": "2023-11-07T15:05:14.083Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 43,
+    "fields": {
+        "user": 6,
+        "recommend": 4,
+        "input_sentence": "그는 매일 나를 웃게 한다.",
+        "score": true,
+        "created_at": "2023-11-07T15:05:15.118Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 44,
+    "fields": {
+        "user": 6,
+        "recommend": 4,
+        "input_sentence": "그는 매일 나를 웃게 한다.",
+        "score": true,
+        "created_at": "2023-11-07T15:05:15.925Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 45,
+    "fields": {
+        "user": 6,
+        "recommend": 4,
+        "input_sentence": "그는 매일 나를 웃게 한다.",
+        "score": true,
+        "created_at": "2023-11-07T15:05:16.689Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 46,
+    "fields": {
+        "user": 6,
+        "recommend": 4,
+        "input_sentence": "그는 매일 나를 웃게 한다.",
+        "score": true,
+        "created_at": "2023-11-07T15:05:17.499Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 47,
+    "fields": {
+        "user": 6,
+        "recommend": 4,
+        "input_sentence": "그는 매일 나를 웃게 한다.",
+        "score": true,
+        "created_at": "2023-11-07T15:05:18.274Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 48,
+    "fields": {
+        "user": 6,
+        "recommend": 4,
+        "input_sentence": "그는 매일 나를 웃게 한다.",
+        "score": true,
+        "created_at": "2023-11-07T15:05:19.032Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 49,
+    "fields": {
+        "user": 6,
+        "recommend": 4,
+        "input_sentence": "그는 매일 나를 웃게 한다.",
+        "score": true,
+        "created_at": "2023-11-07T15:05:19.793Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 50,
+    "fields": {
+        "user": 6,
+        "recommend": 4,
+        "input_sentence": "그는 매일 나를 웃게 한다.",
+        "score": true,
+        "created_at": "2023-11-07T15:05:20.535Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 51,
+    "fields": {
+        "user": 6,
+        "recommend": 4,
+        "input_sentence": "그는 매일 나를 웃게 한다.",
+        "score": true,
+        "created_at": "2023-11-07T15:05:21.350Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 52,
+    "fields": {
+        "user": 6,
+        "recommend": 4,
+        "input_sentence": "그는 매일 나를 웃게 한다.",
+        "score": true,
+        "created_at": "2023-11-07T15:05:22.044Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 53,
+    "fields": {
+        "user": 6,
+        "recommend": 4,
+        "input_sentence": "그는 매일 나를 웃게 한다.",
+        "score": true,
+        "created_at": "2023-11-07T15:05:22.772Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 54,
+    "fields": {
+        "user": 3,
+        "recommend": 12,
+        "input_sentence": "좀 흥미롭네요.",
+        "score": true,
+        "created_at": "2023-11-07T15:06:45.979Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 55,
+    "fields": {
+        "user": 3,
+        "recommend": 12,
+        "input_sentence": "좀 흥미롭네요.",
+        "score": true,
+        "created_at": "2023-11-07T15:06:47.959Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 56,
+    "fields": {
+        "user": 3,
+        "recommend": 12,
+        "input_sentence": "좀 흥미롭네요.",
+        "score": true,
+        "created_at": "2023-11-07T15:06:50.667Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 57,
+    "fields": {
+        "user": 3,
+        "recommend": 12,
+        "input_sentence": "좀 흥미롭네요.",
+        "score": true,
+        "created_at": "2023-11-07T15:06:52.243Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 58,
+    "fields": {
+        "user": 3,
+        "recommend": 12,
+        "input_sentence": "좀 흥미롭네요.",
+        "score": true,
+        "created_at": "2023-11-07T15:06:53.997Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 59,
+    "fields": {
+        "user": 3,
+        "recommend": 12,
+        "input_sentence": "좀 흥미롭네요.",
+        "score": true,
+        "created_at": "2023-11-07T15:06:55.666Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 60,
+    "fields": {
+        "user": 5,
+        "recommend": 4,
+        "input_sentence": "그는 매일 나를 웃게 한다.",
+        "score": true,
+        "created_at": "2023-11-07T15:08:05.734Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 61,
+    "fields": {
+        "user": 5,
+        "recommend": 4,
+        "input_sentence": "그는 매일 나를 웃게 한다.",
+        "score": true,
+        "created_at": "2023-11-07T15:08:06.574Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 62,
+    "fields": {
+        "user": 5,
+        "recommend": 4,
+        "input_sentence": "그는 매일 나를 웃게 한다.",
+        "score": true,
+        "created_at": "2023-11-07T15:08:07.435Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 63,
+    "fields": {
+        "user": 1,
+        "recommend": 4,
+        "input_sentence": "그는 매일 나를 웃게 한다.",
+        "score": true,
+        "created_at": "2023-11-07T15:09:47.104Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 64,
+    "fields": {
+        "user": 4,
+        "recommend": 12,
+        "input_sentence": "좀 흥미롭네요.",
+        "score": true,
+        "created_at": "2023-11-07T15:10:59.073Z"
+    }
+},
+{
+    "model": "educations.writingrecord",
+    "pk": 65,
+    "fields": {
+        "user": 4,
+        "recommend": 12,
+        "input_sentence": "좀 흥미롭네요.",
+        "score": true,
+        "created_at": "2023-11-07T15:11:02.196Z"
+    }
+},
+{
+    "model": "educations.speakingrecord",
+    "pk": 1,
+    "fields": {
+        "user": 7,
+        "score": 71,
+        "audio": "audio/record11.wav",
+        "input_script": "",
+        "created_at": "2023-11-08T05:53:51.266Z"
+    }
+},
+{
+    "model": "educations.speakingrecord",
+    "pk": 2,
+    "fields": {
+        "user": 7,
+        "score": 71,
+        "audio": "audio/record11.wav",
+        "input_script": "",
+        "created_at": "2023-11-08T05:56:42.055Z"
+    }
+},
+{
+    "model": "educations.speakingrecord",
+    "pk": 3,
+    "fields": {
+        "user": 7,
+        "score": 68,
+        "audio": "audio/record6.wav",
+        "input_script": "",
+        "created_at": "2023-11-08T05:56:58.265Z"
+    }
+},
+{
+    "model": "educations.speakingrecord",
+    "pk": 4,
+    "fields": {
+        "user": 7,
+        "score": 68,
+        "audio": "audio/record6.wav",
+        "input_script": "",
+        "created_at": "2023-11-08T05:57:44.178Z"
+    }
+}
+]

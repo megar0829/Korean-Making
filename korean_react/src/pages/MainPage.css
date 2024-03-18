@@ -1,0 +1,52 @@
+.main__container {
+    display:flex;
+    flex-direction: column;
+}
+
+.main__banner {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+
+.main__content {
+    width: 180px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    margin: 5px 12px;
+    background-color: #4A90E2;
+}
+
+.main__logo__image {
+    width: 90%;
+}
+.main__bottom {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main__bottom__image {
+    width: inherit;
+    height: inherit;
+    background-color: #4A90E2;
+    border-radius: 20px;
+    width: 150px;
+    height: 60px;
+
+}
+
+.main__bottom__logo {
+    width: inherit;
+    height: inherit;
+    box-shadow: 10px;
+    border-radius: 20px;
+
+}

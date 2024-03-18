@@ -1,0 +1,51 @@
+.profile__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.profile__image {
+    margin-top: 1rem;
+    width: inherit;
+}
+.profile__image__tier {
+    width: 200px !important;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.profile__name__bar {
+    margin-top: 10px;
+    width: 100%;
+    height: 20px !important;
+}
+
+.profile__name {
+    /* margin-top: 20px; */
+    margin-bottom: 35px;
+    width: 250px;
+}
+
+.profile__record {
+    height: 70px;
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 40px;
+    margin: 8px 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(69, 69, 99);
+}
+
+.profile__name__tiername {
+    text-decoration: none; 
+    color: #2d7cd1; 
+    font-weight: bold;
+    font-size: x-large;
+}

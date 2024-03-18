@@ -1,0 +1,48 @@
+.tier__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.tier__box {
+    width: 400px;
+    height: 70px;
+    border: 2px solid #75a8e2;
+    border-radius: 10px;
+    margin: 4px 4px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tier__image {
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.profile__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile__image__tier {
+    width: 95px;
+    border-radius: 50%;
+}
+
+.tier__box__tiername {
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(82, 128, 143);
+}
+
+.tier__box__tiername2 {
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: bold;
+    width: 200px;
+}

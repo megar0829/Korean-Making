@@ -1,0 +1,64 @@
+.total__container {
+    height: 800px;
+    position: relative;
+}
+
+.writing__box {
+    width: 100%;
+}
+
+.answer__box {
+    width: 100%;
+}
+
+.score__container {
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: auto;
+    position: relative;
+    margin-top: 70px;
+}
+
+.score__top {
+    border-bottom: 3px lightgray double;
+    position: absolute;
+    left: 25%;
+    top: 2%;
+}
+
+.score__box {
+    width: 400px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3px 3px;
+    color: aliceblue;
+    background-color: steelblue;
+}
+
+.score__box__red {
+    background-color: rgb(202, 64, 64);
+}
+
+.score__middle {
+    height: 400px;
+    padding-top: 10px;
+    padding-bottom: 20pxs;
+}
+
+.score__text {
+    width: 100%;
+}
+
+.back__btn {
+    position: absolute;
+    left: 7%;
+    top: 4%;
+}

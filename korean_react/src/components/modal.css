@@ -1,0 +1,51 @@
+.modal-dialog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    width: 400px !important;
+    border-radius: 20%;
+}
+
+.modal__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 400px;
+
+}
+
+/* .modal__button {
+    background-color: aliceblue;
+    border: 1px solid rgb(180, 193, 205);
+    border-radius: 1%;
+    color: rgb(115, 114, 114);
+    font-weight: 500;
+} */
+
+.modal__green {
+    border-radius: 8%;
+    background-color: rgb(61, 203, 177);
+}
+
+.modal__red {
+    border-radius: 8%;
+    background-color: rgb(255, 142, 127);
+}
+
+.modal__writing__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    border-radius: 8% !important;
+  
+}

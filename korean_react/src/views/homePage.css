@@ -1,0 +1,52 @@
+.home__welcome {
+    margin-top: 80px;
+    font-size: 40px;
+
+}
+
+.home__welcome__logo {
+  margin-top: 20px;
+    width: 350px;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-bottom: 140px;
+    margin-top: 110px;
+  }
+  
+  .home__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 20px 0 0 0;
+    border: none;
+    background-color: #007BFF; /* Button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 30px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #0056b3; /* Button background color on hover */
+  }
+  
+  .home__login__button {
+    height: 80px;
+    width: 200px;
+    background-color: #007BFF;
+  }
+  
+  .home__register__button {
+    height: 80px;
+    width: 200px;
+    background-color: #28a745;
+  }
+  

@@ -1,0 +1,72 @@
+.speaking__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.speaking__image {
+    position: relative;
+}
+
+.speaking__mike {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.speaking__explanation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 300px;
+}
+
+.speaking__question {
+    position: absolute;
+    bottom: 0;
+    right: 32px;
+    height: 23px !important;
+    width: 23px !important;
+    font-weight: bold;
+    border: 1px solid black !important;
+    border-radius: 50% !important;
+    color: black !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .speaking__toggle {
+    margin-right: 24px;
+} */
+
+.speaking__input{
+    width: 100%;
+    margin-top: 20px;
+    font-style: italic;
+    color: rgb(82, 128, 143);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.speaking__input__text {
+    font-size: 25px;
+    width: 90%;
+    word-break: keep-all;
+}
+
+.speaking__input__form{
+    width: 250px;
+}
+
+.hidden {
+    display: none;
+}
